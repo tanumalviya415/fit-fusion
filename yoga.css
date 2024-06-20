@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: black;
+  color: #080505;
+  padding: 10px 20px;
+  text-decoration: none;
+  height: 130px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-width: 3px;
+  border-style: solid;
+}
+.logo {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  color: #25cbd7;
+}
+nav ul {
+  text-align: center;
+  margin-bottom: 20px;
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ccc;
+  color: white;
+}
+nav ul li a:hover{
+  background-color: rgb(6, 5, 5);
+  color: #25cbd7;
+}
+.main{
+  width: 208vh;
+  height: 82vh;
+  background: url(Images/gym.jpg);
+  background-position: center;
+  background-size: cover;
+  background-position: center;   
+  box-sizing: border-box;
+  padding: 2px;
+  float: left;
+  border-width: 3px;
+  border-style: solid;
+}
+.navbar{
+  width: 208vh;
+  height: 75px;
+  margin: auto;
+}
+.icon{
+  width: 208vh;
+  height: 75px;
+  float: left;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 40px;
+  margin-top: 120px;
+}
+
+.class-card1 {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  float: left;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.class-card1 img {
+  width: 74vh;
+  height: 300px;
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+.class-card2 {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  float: right;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.class-card2 img {
+  width: 74vh;
+  height: 300px;
+  border-radius: 5px;
+  margin-right: 100px;
+  margin-top: 60px;
+}
+.yoga_title{
+  text-align: center;
+  font-size: 30px;
+}
+.yoga_pgraph{
+  text-align: center;
+  font-size: 27px;
+  font-family: 'Times New Roman';
+}
+
+
+/*yoga Diet plan*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.yoga_head {
+  background-color: #bdecc8;
+  color: #0c0a0a;
+  text-align: center;
+  padding: 1rem;
+}
+
+.yoga_head h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #1abc9c;
+}
+
+.yoga_head p {
+  font-size: 1.2em;
+  color: #777;
+}
+
+main {
+  margin: 20px 0;
+}
+
+.meal {
+  margin-bottom: 20px;
+}
+
+.meal h2 {
+  font-size: 1.8em;
+  color: #333;
+  border-bottom: 2px solid #1abc9c;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.meal ul {
+  list-style: none;
+  padding: 0;
+}
+
+.meal ul li {
+  background-color: #e8f5e9;
+  margin: 5px 0;
+  padding: 10px;
+  border-left: 5px solid #1abc9c;
+  font-size: 1.3em;
+}
+
+.yoga_foot {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.yoga_foot p {
+  margin: 0;
+  color: #777;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="Login.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <h1 id="title">Sign Up</h1>
+        <form name="myform" id="registrationForm">
+          
+          <div class="input-group">
+            <div class="input-field" id="cname">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="Name" id="name" />
+              <b><span class="formerror"></span></b>
+            </div>
+            <div class="input-field">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" placeholder="E-mail id" id="email" />
+              <b><span class="formerror"></span></b>
+            </div>
+            <div class="input-field">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Password" id="password" />
+              <b><span class="formerror"></span></b>
+            </div>
+            <p>password <a href="#">Click Here</a></p>
+          </div>
+          <div class="btn">
+            <button type="submit" id="signup">Sign up</button>
+            <button type="button" id="signin" class="disable">Sign in</button>
+          </div>
+        </form>
+        <br></br>
+        <div id="result"></div>
+      </div>
+    </div>
+    <div id="data-container"></div>
+    <script src="register.js"></script>
+  </body>
+</html>

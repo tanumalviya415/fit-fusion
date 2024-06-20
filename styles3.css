@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(yoga.png);
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f1a173;
+    color: #fff;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+   
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    color: black;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+    color: black;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 20px;
+  }
+  .image_container{
+    width: 100%;
+    
+  }
+  .cta-btn {
+    background-color: #f1a173;
+    color: #110c0c;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .classes {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .class-card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .class-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  footer {
+    background-color: #f9c4e4;
+    color: #080606;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+  }
+  nav ul li a:hover{
+    background-color: white;
+    color: #f7a1e3;
+  }
+  .cta-btn:hover{
+    background-color: white;
+    color: #30ec13;
+  }
